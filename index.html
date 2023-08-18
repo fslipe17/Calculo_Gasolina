@@ -19,6 +19,7 @@
             placeholder="4.90"
             min="1"
             step="0.01"
+            required
             >
 
             <label for="">alcool (preço por litro)</label>
@@ -28,15 +29,21 @@
             placeholder="6.40"
             min="1"
             step="0.01"
+            required
             >
             <input class="button" type="submit" value="calcular">
 
         </form>
+        <section id="content-result" class="result hide">
+            <span id="text-result">Compensa usar alcool</span>
+            <span id="alcool-result">Alcool R$3.90</span>
+            <span id="gasolina-result">Gasolina R$6.00</span>
+        </section>
  </main>
         <div class="info">
             <span class="tooltip">Veja como é feito o calculo</span>
-            <a href="#">
-            <img class="info-img" src="img/info.png" alt="informações">
+            <a href="calculo.html">
+            <img class="info-img" src="img/info.png" alt="Descubra como é feito o calculo">
             </a>
         </div>
         <script src="./script.js"></script>
