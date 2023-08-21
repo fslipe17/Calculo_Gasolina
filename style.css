@@ -61,7 +61,7 @@ input{
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    border: 1px solo #696969;
+    border: 1px solid #696969;
     user-select: none;
     transition: transform 0.20s;
 }
